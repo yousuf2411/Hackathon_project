@@ -1,0 +1,118 @@
+{
+  "grid_available": [
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+  ],
+  "generator_capacity_kw": 10,
+  "fuel_budget_litres": 8.0,
+  "fuel_table": [
+    {
+      "load_kw": 4,
+      "litres_per_hour": 0.8
+    },
+    {
+      "load_kw": 7,
+      "litres_per_hour": 1.2
+    },
+    {
+      "load_kw": 10,
+      "litres_per_hour": 1.6
+    }
+  ],
+  "max_consecutive_dark": 2,
+  "shops": [
+    {
+      "id": "pharmacy",
+      "kw": 3,
+      "type": "mandatory",
+      "value_per_slot": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "id": "tailor",
+      "kw": 4,
+      "type": "normal",
+      "value_per_slot": [
+        2,
+        2,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "mobile",
+      "kw": 3,
+      "type": "normal",
+      "value_per_slot": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "photocopy",
+      "kw": 2,
+      "type": "normal",
+      "value_per_slot": [
+        3,
+        3,
+        5,
+        5,
+        4,
+        3,
+        2,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "tea_stall",
+      "kw": 1,
+      "type": "normal",
+      "value_per_slot": [
+        2,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    }
+  ]
+}
